@@ -25,7 +25,7 @@ async def cbstart(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("ꜱᴏᴜʀᴄᴇ", url="https://T.ME/Shubhanshutya"),
+                InlineKeyboardButton("ꜱᴏᴜʀᴄᴇ", url="https://T.ME/meribaj"),
                 InlineKeyboardButton("✨ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{UPDATES_CHANNEL}"),],
                 [InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"),
                 InlineKeyboardButton("❓ ꜱᴇᴛᴜᴘ", callback_data="cbsetup"),],
