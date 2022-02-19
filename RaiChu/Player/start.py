@@ -30,10 +30,9 @@ async def _human_time_duration(seconds):
     return ", ".join(parts)
 
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
-async def start_(client: Client, message: Message):
-        await message.reply_photo(
-            photo=f"https://telegra.ph/file/02e51c229a2867e13c21e.jpg",
+@Client.on_message(other_filters2)
+async def start(_, message: Message):
+        await message.reply_text(
         f"""**👋Salama'Aniga Waxaan Ahay 𝙊𝙨𝙢𝙖𝙣𝙞 𝘽𝙤𝙩 Botkaan 
         Waxa aad gashan kartaa Oo ku isticmaali kartaa Group kaaga.
         [Qofka Sameeyey Botkaan](https://t.me/osmanibots)
