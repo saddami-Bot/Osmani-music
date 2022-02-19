@@ -20,7 +20,7 @@ from pytgcalls.types.input_stream.quality import (
     MediumQualityVideo,
 )
 from youtubesearchpython import VideosSearch
-IMAGE_THUMBNAIL = "https://telegra.ph/file/519b6bc739756cb822039.png"
+IMAGE_THUMBNAIL = "https://telegra.ph/file/02e51c229a2867e13c21e.jpg"
 
 
 def ytsearch(query: str):
@@ -182,8 +182,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/BotDuniya"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/PmPermit")
+                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/osmanibots"),
+                            InlineKeyboardButton("💭 Support", url=f"https://t.me/osmanigroupbot")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
