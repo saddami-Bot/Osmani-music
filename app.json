@@ -1,5 +1,5 @@
 {
-    "name": "Osmani Music Bot",
+    "name": "Zeyriye Music Bot",
     "description": "Telegram bot for Streaming  Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
     "logo": "https://telegra.ph/file/9995624d49de3eb6528a8.png",
     "keywords": [
@@ -8,7 +8,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/RaiChuUpdate",
-    "repository": "https://github.com/OsmaniPro/RaiChuMusic",
+    "repository": "https://github.com/saddami-Bot/zeyriye",
     "success_url": "https://t.me/meribaj",
     "env": {
         "API_ID": {
